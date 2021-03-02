@@ -43,18 +43,27 @@ math.randomseed(os.time())
 local track =  reaper.GetSelectedTrack(0, 0)
 local track_fx_num = 0
 
+
 -- Gets the table length of the parameter passed in
 function table_length(table)
+  
   local count = 0
+  
   for _ in pairs(table) do 
     count = count + 1
   end
+  
   return count
+
 end
 
+
 function Msg(param)
+
   reaper.ShowConsoleMsg(tostring(param))
+  
 end
+
 
 -- Inserts ReaEQ on track 1 if the script is called before the plugin is instantiated
 reaper.TrackFX_GetEQ(track, true)
@@ -64,15 +73,15 @@ for i = 0, reaper.TrackFX_GetCount(track) - 1 do
   local retval, buf = reaper.TrackFX_GetFXName(track, i, "what")
   
   if string.find(buf, "ReaEQ") then
-  
     track_fx_num = i
     break
-    
   end
 
 end
 
+
 Msg("")
+
 
 -- Grabs a random index from the freq table and sets the parameter in ReaEQ
 if table_length(freq) == 0 then
@@ -82,9 +91,12 @@ if table_length(freq) == 0 then
   return 
 
 end
+
+
 random_freq = freq[math.random(1, table_length(freq))]
 reaper.TrackFX_SetEQParam(track, track_fx_num, 2, 0, 0, random_freq, 0)
 result_freq = "\nFrequency: "..tostring(random_freq).." Hz"
+
 
 --[[ Grabs a random index from the gain table, converts it to the 
 logarithmic scale and sets the param in ReaEQ --]]
@@ -107,6 +119,7 @@ if gain ~= nil then
 
 end
 
+
 -- Grabs a random index from the bandwidth table and sets the parameter in ReaEQ
 if bandwidth ~= nil then
 
@@ -120,8 +133,10 @@ if bandwidth ~= nil then
   result_bandwidth = "\nBandwidth: "..tostring(answer_bandwidth).." (oct)"
 end 
 
+
 -- Adjusts what the user sees on the input settings according to the difficulty they choose
 if user_input == true then
+
   if bandwidth == nil and gain == nil then
     b, user_input = reaper.GetUserInputs
     ("ReaEQ Test - User Input", 1, 'What is the frequency?',"")
@@ -135,8 +150,11 @@ if user_input == true then
     b, user_input = reaper.GetUserInputs
     ("ReaEQ Test - User Input", 1, 'Frequency gain and bandwidth?',"")
   end
+  
   Msg("Your answer: "..user_input.."\n")
+  
 end
+
 
 -- Shows the randomly set values of the ReaEQ paramteters in the console
 Msg("\nThe correct answer is...\n")
@@ -151,9 +169,12 @@ if bandwidth ~= nil then
   Msg(result_bandwidth)
 end
 
+
 -- Converts volume in dB back to logarithmic and resets the gain to unity
 if reset_filter == true then
+
   b, user_input = reaper.GetUserInputs("ReaEQ Test - User Input", 1, 'Click \'Ok\' to reset the gain.',"Reset")
+  
   if user_input == "Reset" then
     vol_db = 20*(math.log(random_gain_log, 10)) 
     random_gain_log = (random_gain_log * 1)
@@ -161,4 +182,6 @@ if reset_filter == true then
     vol_log = math.exp(vol_db * 0.115129254)
     reaper.TrackFX_SetEQParam(track, track_fx_num, 2, 0, 1, vol_log, 0)          
   end
+  
 end
+
