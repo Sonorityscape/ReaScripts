@@ -1,9 +1,12 @@
 --[[
 
-Script Name: EQ Practice with ReaEQ
+Script Name: EQ Practice With ReaEQ
 Author: Daniel Petras
+Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Reaper: 5.941
+Repository: https://github.com/Sonorityscape/ReaScripts.git
+Script Version: 1.0
+Version Last Tested: Reaper 5.941
 Description: Test your EQ skills with any combination of randomized frequencies, 
 gain levels and and bandwidth settings
 
