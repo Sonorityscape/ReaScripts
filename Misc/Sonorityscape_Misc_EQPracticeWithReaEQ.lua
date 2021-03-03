@@ -1,26 +1,29 @@
 --[[
-
 Script Name: EQ Practice With ReaEQ
-Description: Test your EQ skills with any combination of randomized frequencies, 
-gain levels and bandwidth settings
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
 Script Version: 1.1
 Version Last Tested: Reaper 6.23
-Version History:
-1.0
-- Launch
-1.1
+Description: Test your EQ skills with any combination of randomized frequencies, 
+gain levels and bandwidth settings
+
+Changelog:
+
+v1.1
 - ReaEQ can be inserted into any FX slot position
 - ReaEQ will now be instantiated onto the first selected track
 - The 'gain' in User Settings can be left blank. It will default to 0dB
 - If the 'bandwidth is left blank, it will default to 1
 - If you remove all frequencies from the User Settings the script will prompt user to add at least one
 - 'user_input' and 'reset_filter' can be set to false instead of previously having to comment them out 
+- Launch
 
-Notes: 
+v1.0
+- Launch
+
+Instructions: 
 
 - Load ReaEQ into any FX slot on any selected track in Reaper
 - Insert audio file onto track with ReaEQ
