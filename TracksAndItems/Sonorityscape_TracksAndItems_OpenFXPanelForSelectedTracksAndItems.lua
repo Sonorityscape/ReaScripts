@@ -7,7 +7,6 @@ Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
 Script Version: 1.0
 Version Last Tested: REAPER v6.23
-Requirements: 
 Description: Opens FX panel for selected tracks and items
 Instructions: Select one or multiple tracks and/or items and run script
 
