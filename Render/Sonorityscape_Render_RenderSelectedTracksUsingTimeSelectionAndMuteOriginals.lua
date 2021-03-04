@@ -6,7 +6,7 @@ Contributing Authors:
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: 1.0
+Script Version: WIP
 Version Last Tested: REAPER v6.23
 Requirements: 
 Description: 
