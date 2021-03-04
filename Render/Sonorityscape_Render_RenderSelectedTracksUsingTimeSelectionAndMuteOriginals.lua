@@ -244,7 +244,7 @@ function Main()
   
 --]]
 
-  reaper.Main_OnCommand(reaper.NamedCommandLookup("_RS489ec89f7a6e0fa73d1c23cd4ff47fb7a62995ff"), 1) --Script: DP - Add Parent Folder With FX To Selected Tracks.lua        
+  reaper.Main_OnCommand(reaper.NamedCommandLookup("_RS5efa28a76c337a7c89ef8ad2d15a20011a0fa38b"), 1) --Script: DP - Add Parent Folder With FX To Selected Tracks.lua        
 
   Set_Track_Folder_Depth(unrendered_tracks, selected_tracks)
   
