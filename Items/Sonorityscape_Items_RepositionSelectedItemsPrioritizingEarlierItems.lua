@@ -8,7 +8,7 @@ Repository: https://github.com/Sonorityscape/ReaScripts.git
 Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Description: Repositions the distance between each selected item by a specified amount. The item positioning is
-prioritized based on which items are earlier on the timeline (indpendent of any tracks).
+prioritized based on which items are earlier on the timeline (indpendent of any track).
 
 --]]
 

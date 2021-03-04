@@ -7,8 +7,8 @@ Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
 Script Version: 1.0
 Version Last Tested: REAPER v6.23
-Description: Repositions the distance between each selected item by a specified amount. The item positioning is
-prioritized based items that are on a higher track.
+Description: Repositions the distance between each selected item by a specified amount. The script prioritizes 
+items on a higher track.
 
 --]]
 
