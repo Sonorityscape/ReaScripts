@@ -5,5 +5,4 @@ To install my scripts for use in Reaper, you can copy and paste the following UR
 [https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml](url)
 
 
-
-Reapack can be downloaded here: https://reapack.com/
+\nReapack can be downloaded here: https://reapack.com/
