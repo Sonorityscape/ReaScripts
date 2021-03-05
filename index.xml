@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts"/>
+<index version="1" name="Sonorityscape Scripts" commit="8d4124b272f035763e6f8b68f625498674ad53c9">
+  <category name="Misc">
+    <reapack name="Sonorityscape_Misc_EQPracticeWithReaEQ.lua" type="script" desc="EQ Practice With ReaEQ - Test your EQ skills with any combination of randomized frequencies, gain levels and bandwidth settings">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Load ReaEQ into any FX slot on any selected track in Reaper Insert audio file onto track with ReaEQ Modify the tables 'freq', 'gain' and 'bandwidth' to increase or decrease difficulty Set user_input and/or reset_filter to toggle those settings\par}
+}
+]]></description>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.1" author="Daniel Petras" time="2021-03-05T17:07:54Z">
+        <changelog><![CDATA[1.1 ReaEQ can be inserted into any FX slot position
+    ReaEQ will now be instantiated onto the first selected track
+    The 'gain' in User Settings can be left blank. It will default to 0dB
+    If the 'bandwidth is left blank, it will default to 1
+    If you remove all frequencies from the User Settings the script will prompt user to add at least one
+    'user_input' and 'reset_filter' can be set to false instead of previously having to comment them out]]></changelog>
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/8d4124b272f035763e6f8b68f625498674ad53c9/Misc/Sonorityscape_Misc_EQPracticeWithReaEQ.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
