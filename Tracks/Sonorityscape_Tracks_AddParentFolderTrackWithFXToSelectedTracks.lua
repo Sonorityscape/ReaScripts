@@ -21,10 +21,11 @@ function Main()
 
   local tr = reaper.GetSelectedTrack(0, 0)
   local tr_color = reaper.GetTrackColor(tr)
+  last_folder_track = nil
   
   for i = 0, reaper.CountSelectedTracks(0) - 1 do
   
-    local last_folder_track = reaper.GetSelectedTrack(0, i)
+    last_folder_track = reaper.GetSelectedTrack(0, i)
     
   end
   
