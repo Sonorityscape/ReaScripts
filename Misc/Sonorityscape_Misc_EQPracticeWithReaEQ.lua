@@ -1,37 +1,20 @@
---[[
+-- @description EQ Practice With ReaEQ - Test your EQ skills with any combination of randomized frequencies, gain levels and bandwidth settings
+-- @author Daniel Petras
+-- @version: 1.1
+-- @link http://sonorityscape.com/
+-- @changelog
+--  1.1 ReaEQ can be inserted into any FX slot position
+--      ReaEQ will now be instantiated onto the first selected track
+--      The 'gain' in User Settings can be left blank. It will default to 0dB
+--      If the 'bandwidth is left blank, it will default to 1
+--      If you remove all frequencies from the User Settings the script will prompt user to add at least one
+--      'user_input' and 'reset_filter' can be set to false instead of previously having to comment them out
+-- @about
+--      Load ReaEQ into any FX slot on any selected track in Reaper
+--      Insert audio file onto track with ReaEQ
+--      Modify the tables 'freq', 'gain' and 'bandwidth' to increase or decrease difficulty
+--      Set user_input and/or reset_filter to toggle those settings
 
-Script Name: EQ Practice With ReaEQ
-Author: Daniel Petras
-Contact: daniel@sonorityscape.com
-Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: 1.1
-Version Last Tested: REAPER v6.23
-Description: Test your EQ skills with any combination of randomized frequencies, 
-gain levels and bandwidth settings
-
-Changelog:
-
-v1.1
-- ReaEQ can be inserted into any FX slot position
-- ReaEQ will now be instantiated onto the first selected track
-- The 'gain' in User Settings can be left blank. It will default to 0dB
-- If the 'bandwidth is left blank, it will default to 1
-- If you remove all frequencies from the User Settings the script will prompt user to add at least one
-- 'user_input' and 'reset_filter' can be set to false instead of previously having to comment them out 
-- Launch
-
-v1.0
-- Launch
-
-Instructions: 
-
-- Load ReaEQ into any FX slot on any selected track in Reaper
-- Insert audio file onto track with ReaEQ
-- Modify the tables 'freq', 'gain' and 'bandwidth' to increase or decrease difficulty
-- Set user_input and/or reset_filter to toggle those settings
-
---]]
 
 --------------User Settings--------------
 
