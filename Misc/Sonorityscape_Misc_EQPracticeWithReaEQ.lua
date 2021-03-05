@@ -1,6 +1,6 @@
 -- @description EQ Practice With ReaEQ - Test your EQ skills with any combination of randomized frequencies, gain levels and bandwidth settings
 -- @author Daniel Petras
--- @version: 1.1
+-- @version 1.1
 -- @link http://sonorityscape.com/
 -- @changelog
 --  1.1 ReaEQ can be inserted into any FX slot position
