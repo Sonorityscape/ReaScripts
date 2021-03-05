@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="8d4124b272f035763e6f8b68f625498674ad53c9">
+<index version="1" name="Sonorityscape Scripts" commit="26611b9bf53c26317b926ebb15a50ad034d223c7">
+  <category name="Items">
+    <reapack name="Sonorityscape_Items_RepositionSelectedItemsPrioritizingEarlierItems.lua" type="script" desc="Repositions the distance between each selected item by a specified amount. The item positioning is">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Items/Sonorityscape_Items_RepositionSelectedItemsPrioritizingEarlierItems.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Sonorityscape_Items_RepositionSelectedItemsPrioritizingHigherTracks.lua" type="script" desc="Repositions the distance between each selected item by a specified amount. The script prioritizes">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Items/Sonorityscape_Items_RepositionSelectedItemsPrioritizingHigherTracks.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Markers">
+    <reapack name="Sonorityscape_Markers_SearchMarkerNamesAndGoToMarker.lua" type="script" desc="Shows a list of markers with alphabetized names to move the cursor to">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Markers/Sonorityscape_Markers_SearchMarkerNamesAndGoToMarker.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="MIDI">
+    <reapack name="Sonorityscape_MIDI_RepositionMidiNotesOnAllSelectedTracks.lua" type="script" desc="Adjusts positioning of all MIDI notes on selected tracks by a specified time interval">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="0.1" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/MIDI/Sonorityscape_MIDI_RepositionMidiNotesOnAllSelectedTracks.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Misc">
     <reapack name="Sonorityscape_Misc_EQPracticeWithReaEQ.lua" type="script" desc="EQ Practice With ReaEQ - Test your EQ skills with any combination of randomized frequencies, gain levels and bandwidth settings">
       <metadata>
@@ -20,6 +58,44 @@
     If you remove all frequencies from the User Settings the script will prompt user to add at least one
     'user_input' and 'reset_filter' can be set to false instead of previously having to comment them out]]></changelog>
         <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/8d4124b272f035763e6f8b68f625498674ad53c9/Misc/Sonorityscape_Misc_EQPracticeWithReaEQ.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Render">
+    <reapack name="Sonorityscape_Render_RenderSelectedTracksUsingTimeSelectionAndMuteOriginals.lua" type="script">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="0.1" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Render/Sonorityscape_Render_RenderSelectedTracksUsingTimeSelectionAndMuteOriginals.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Tracks">
+    <reapack name="Sonorityscape_Tracks_AddParentFolderTrackWithFXToSelectedTracks.lua" type="script" desc="Adds folder track with desired FX to selected tracks">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Tracks/Sonorityscape_Tracks_AddParentFolderTrackWithFXToSelectedTracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Sonorityscape_Tracks_ToggleShowOnlySoloedTracks.lua" type="script" desc="A toggle that when on only shows soloed tracks and when off shows all tracks">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Tracks/Sonorityscape_Tracks_ToggleShowOnlySoloedTracks.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="TracksAndItems">
+    <reapack name="Sonorityscape_TracksAndItems_OpenFXPanelForSelectedTracksAndItems.lua" type="script" desc="Opens FX panel for selected tracks and items">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/TracksAndItems/Sonorityscape_TracksAndItems_OpenFXPanelForSelectedTracksAndItems.lua</source>
       </version>
     </reapack>
   </category>
