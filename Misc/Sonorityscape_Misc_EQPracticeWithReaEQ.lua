@@ -2,6 +2,7 @@
 -- @author Daniel Petras
 -- @version 1.1
 -- @link http://sonorityscape.com/
+-- @donation
 -- @changelog
 --  1.1 ReaEQ can be inserted into any FX slot position
 --      ReaEQ will now be instantiated onto the first selected track
