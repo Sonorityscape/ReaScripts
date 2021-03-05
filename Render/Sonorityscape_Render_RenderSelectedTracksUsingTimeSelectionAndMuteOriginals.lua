@@ -1,20 +1,16 @@
 --[[
-
+@version 0.1
 Script Name: Render Selected Tracks Using Time Selection And Mute Originals
 Author: Daniel Petras
 Contributing Authors: 
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: WIP
 Version Last Tested: REAPER v6.23
 Requirements: 
 Description: 
-
 Changelog:
-
 Instructions:
-
 --]]
 
 local space_buffer_size = 0 

@@ -1,16 +1,15 @@
 --[[
-
+@version 1.0
 Script Name: Reposition Selected Items Prioritizing Higher Tracks 
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Description: Repositions the distance between each selected item by a specified amount. The item positioning is
 prioritized based on which items are earlier on the timeline (indpendent of any track).
-
 --]]
+
 
 function get_items_table(items_table)
   

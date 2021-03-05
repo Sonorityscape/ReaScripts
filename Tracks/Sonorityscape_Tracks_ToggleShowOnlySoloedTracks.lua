@@ -1,15 +1,13 @@
 --[[
-
+@version 1.0
 Script Name: Toggle Show Only Soloed Tracks
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Requirements: SWS/S&M Extension
 Description: A toggle that when on only shows soloed tracks and when off shows all tracks
-
 --]]
 
 

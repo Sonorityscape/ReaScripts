@@ -1,12 +1,11 @@
 --[[
-
+@version 1.0
 Script Name: Search Marker Names And Go To Marker
 Author: Daniel Petras
 Contributing Authors: 
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Requirements: SWS/S&M Extension 
 Description: Shows a list of markers with alphabetized names to move the cursor to

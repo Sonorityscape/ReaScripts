@@ -1,5 +1,5 @@
 --[[
-
+@version 1.0
 Script Name: Add Parent Folder Track With FX To Selected Tracks
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
@@ -9,7 +9,6 @@ Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Requirements: SWS/S&M Extension
 Description: Adds folder track with desired FX to selected tracks
-
 --]]
 
 --------------User Settings--------------
