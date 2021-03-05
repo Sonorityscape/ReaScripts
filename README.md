@@ -5,4 +5,4 @@ To install my scripts for use in Reaper, you can copy and paste the following UR
 
 
 
-Reapack can be downloaded here: https://reapack.com/
+ReaPack can be downloaded here: https://reapack.com/
