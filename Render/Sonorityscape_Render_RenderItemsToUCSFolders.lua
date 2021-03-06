@@ -5,8 +5,9 @@ Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
 Repository: https://github.com/Sonorityscape/ReaScripts.git
-Version Last Tested: REAPER v6.23
-Description: Renders UCS compliant 
+Version Last Tested: REAPER v6.25
+Description: Renders selected items with UCS compliant names to UCS folders
+Instructions: Be sure to set your UCS root folder in the 'User Settings"
 --]]
 
 
