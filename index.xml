@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="26611b9bf53c26317b926ebb15a50ad034d223c7">
+<index version="1" name="Sonorityscape Scripts" commit="d984e947c3e6a3433ecfd631c5a40a1b23b3ba51">
   <category name="Items">
     <reapack name="Sonorityscape_Items_RepositionSelectedItemsPrioritizingEarlierItems.lua" type="script" desc="Repositions the distance between each selected item by a specified amount. The item positioning is">
       <metadata>
@@ -62,6 +62,14 @@
     </reapack>
   </category>
   <category name="Render">
+    <reapack name="Sonorityscape_Render_RenderItemsToUCSFolders.lua" type="script" desc="Renders UCS compliant">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-06T15:46:40Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/c372e0d00ad8098bb5f9752471783dccb4e33d39/Render/Sonorityscape_Render_RenderItemsToUCSFolders.lua</source>
+      </version>
+    </reapack>
     <reapack name="Sonorityscape_Render_RenderSelectedTracksUsingTimeSelectionAndMuteOriginals.lua" type="script">
       <metadata>
         <link rel="website">http://sonorityscape.com/</link>
