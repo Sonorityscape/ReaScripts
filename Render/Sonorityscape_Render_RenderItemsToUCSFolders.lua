@@ -764,8 +764,8 @@ function Get_Item_Prefix(item)
   local retval, take_name = reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", "name", false)
   
   if string.find(take_name, item_prefix_search) == nil then
-  
-    return nil
+    
+    return nil, take_name
   
   else
   
