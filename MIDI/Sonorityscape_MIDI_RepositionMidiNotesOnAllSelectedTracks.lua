@@ -4,7 +4,7 @@ Script Name: Render Selected Tracks Using Time Selection And Mute Originals
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
 Version Last Tested: REAPER v6.23
 Requirements: 
 Description: Adjusts positioning of all MIDI notes on selected tracks by a specified time interval

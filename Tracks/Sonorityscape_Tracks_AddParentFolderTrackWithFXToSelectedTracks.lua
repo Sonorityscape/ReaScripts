@@ -4,7 +4,7 @@ Script Name: Add Parent Folder Track With FX To Selected Tracks
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
 Script Version: 1.0
 Version Last Tested: REAPER v6.23
 Requirements: SWS/S&M Extension

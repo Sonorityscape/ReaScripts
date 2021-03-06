@@ -4,7 +4,7 @@ Script Name: Open FX Panel For Selected Tracks And Items
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
 Version Last Tested: REAPER v6.23
 Description: Opens FX panel for selected tracks and items
 Instructions: Select one or multiple tracks and/or items and run script

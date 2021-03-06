@@ -4,8 +4,8 @@ Script Name: Render Items To UCS Folders
 Author: Daniel Petras
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
-Version Last Tested: REAPER v6.25
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
+Version Last Tested: REAPER v6.25 on Windows
 Description: Renders selected items with UCS compliant names to UCS folders
 Instructions: Be sure to set your UCS root folder in the 'User Settings"
 --]]
@@ -14,10 +14,10 @@ Instructions: Be sure to set your UCS root folder in the 'User Settings"
 --------------User Settings--------------
 
 ucs_root_folder = "C:\\Users\\Sonorityscape\\Desktop\\test" -- Change to your UCS root directory
-open_to_file = true -- Ppens to the file in explorer after it has been rendered
+open_to_file = true -- Opens to the file in explorer after it has been rendered
 sample_rate = 48000
 channels = 2
-format = "ffia"
+format = "evaw"
 --[[
 WAV = "evaw"
 MP3 = "l3pm"

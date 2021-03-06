@@ -5,7 +5,7 @@ Author: Daniel Petras
 Contributing Authors: 
 Contact: daniel@sonorityscape.com
 Website: http://sonorityscape.com/
-Repository: https://github.com/Sonorityscape/ReaScripts.git
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
 Version Last Tested: REAPER v6.23
 Requirements: SWS/S&M Extension 
 Description: Shows a list of markers with alphabetized names to move the cursor to
