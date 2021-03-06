@@ -758,7 +758,7 @@ end
 
 function Get_Item_Prefix(item)
 
-  local item_prefix_search = "%u+%l+"
+  local item_prefix_search = "%u+%l*"
   local take = reaper.GetMediaItemTake(item, 0)
   local retval, take_name = reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", "name", false)
   
@@ -778,7 +778,7 @@ end
 
 function Is_Full_UCS_Name(item)
 
-  local file_name_search = "%u+%l+-?%w?_%w?-?%w+_%w+_%w+_?%w?"
+  local file_name_search = "%u+%l*-?%w?_%w?-?%w+_%w+_%w+_?%w?"
   local take = reaper.GetMediaItemTake(item, 0)
   local retval, take_name = reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", "name", false)
   
