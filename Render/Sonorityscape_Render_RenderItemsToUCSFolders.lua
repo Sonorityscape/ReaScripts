@@ -778,12 +778,14 @@ end
 
 function Is_Full_UCS_Name(item)
 
-  local file_name_search = "%u+%l*-?%w?_%w?-?%w+_%w+_%w+_?%w?"
+  local file_name_search = "%u+%l*-?%w?_%w?-?[%w+%s]+_%w+_%w+_?%w?"
   local take = reaper.GetMediaItemTake(item, 0)
   local retval, take_name = reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", "name", false)
   
   
   if string.find(take_name, file_name_search) == nil then
+    
+    Msg("tst")
   
     return false
     
