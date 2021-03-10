@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="efd47dc8b07af501d36de6461c434906abc7d514">
+<index version="1" name="Sonorityscape Scripts" commit="ddfb9f6e2c4b19d3d9159801f56f818b53e0c379">
   <category name="Items">
     <reapack name="Sonorityscape_Items_RepositionSelectedItemsPrioritizingEarlierItems.lua" type="script" desc="Repositions the distance between each selected item by a specified amount. The item positioning is">
       <metadata>
@@ -76,6 +76,16 @@
       </metadata>
       <version name="0.1" author="Daniel Petras" time="2021-03-05T17:49:34Z">
         <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Render/Sonorityscape_Render_RenderSelectedTracksUsingTimeSelectionAndMuteOriginals.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="ThirdPartyPlugins">
+    <reapack name="Sonorityscape_ThirdPartyPlugins_SetTravelerPeakPointsWithMarkers.lua" type="script" desc="This script creates markers in Reaper that highlight the doppler peak points of the Plugin &quot;Traveler&quot; by Tonsturm">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-10T01:48:58Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/ddfb9f6e2c4b19d3d9159801f56f818b53e0c379/ThirdPartyPlugins/Sonorityscape_ThirdPartyPlugins_SetTravelerPeakPointsWithMarkers.lua</source>
       </version>
     </reapack>
   </category>
