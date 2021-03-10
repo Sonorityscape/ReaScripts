@@ -11,9 +11,11 @@ Description: This script creates markers in Reaper that highlight the doppler pe
 Instructions: 
 - Select all tracks that are being processed by Traveler
 - Set the "TIMECODE" (in Traveler) to seconds and make sure "LOOP" is turned on
-- Move your cursor to where you want the doppler effect to begin
-- Run the script, set the "PEAK TIME"
-- Reset Markers: "Yes" will clear all markers within a time selection and create updated markers. "No" will move the play cursor (back) to the "Doppler Start" marker 
+- Move your cursor to where you want the markers to start from (at the beginning of your track items most likely)
+- Run the script, set the "PEAK TIME" and observe markers being created up until the last item on your selected tracks
+- Old markers within a time selection will be deleted
+- Include all items in a time selection to ensure they are colored uniformly 
+- Cancelling the dialog box will move the play cursor back to 'Doppler Start'
 --]]
 
 --------------User Settings--------------
@@ -31,11 +33,13 @@ end
 
 function ColorTracks()
 
+    reaper.Main_OnCommand(40718, 1) -- Item: Select all items on selected tracks in current time selection
     reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_RANDOMCOLALL"), 1) -- SWS: Set selected track(s) to one random custom color
     local tr = reaper.GetSelectedTrack(0, 0)
     return reaper.GetTrackColor(tr)
 
 end
+
 
 function GetFirstTrackWithTraveler()
 
@@ -49,9 +53,8 @@ function GetFirstTrackWithTraveler()
 
             if buf == plugin_name then
                 
-                local retval, retvals_csv = reaper.GetUserInputs("Set Traveler Peak Points With Markers", 2, "Enter PeakTime (in seconds),Reset Markers, This is a test", "1,Yes")
-                local peak_time, reset_markers = string.match(retvals_csv, "([^,]+),([^,]+)")
-                return peak_time, reset_markers, tr, j
+                local retval, retvals_csv = reaper.GetUserInputs("Set Traveler Peak Points With Markers", 1, "Enter PeakTime (sec)", "1.97")
+                return retval, retvals_csv, tr, j
             
             end
         end
@@ -60,6 +63,7 @@ function GetFirstTrackWithTraveler()
     reaper.ShowMessageBox( "Traveler not found on selected track(s).", "Set Traveler Peak Points With Markers", 0 )
 
 end
+
 
 function GetDopplerDuration(tr, fxid)
 
@@ -80,6 +84,7 @@ function GetDopplerDuration(tr, fxid)
     end 
 end
 
+
 function CreateCursorPosStartMarker(marker_color)
 
     for i = 0, reaper.CountProjectMarkers(0) - 1 do 
@@ -97,6 +102,7 @@ function CreateCursorPosStartMarker(marker_color)
     return cursor_pos
 
 end
+
 
 function GetLastItemEnd()
 
@@ -125,6 +131,7 @@ function GetLastItemEnd()
 
 end
 
+
 function CreatePeakMarkers(cursor_pos, peak_time, doppler_duration, last_item_end, marker_color)
 
     local j = 1
@@ -151,6 +158,7 @@ function CreatePeakMarkers(cursor_pos, peak_time, doppler_duration, last_item_en
     end
 end
 
+
 function MoveCursorToStartMarker()
 
     local cursor_pos = reaper.GetCursorPosition()
@@ -167,13 +175,12 @@ function MoveCursorToStartMarker()
     end
 end
 
+
 function Main()
 
-    local peak_time, reset_markers, tr, fxid = GetFirstTrackWithTraveler()
-
-    if peak_time == nil then return end
+    local user_input, peak_time, tr, fxid = GetFirstTrackWithTraveler()
     
-    if reset_markers == "Yes" then
+    if user_input then
 
         local tr_color = ColorTracks()
 
@@ -195,6 +202,7 @@ function Main()
 
     end
 end
+
 
 reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
