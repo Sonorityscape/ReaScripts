@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="229ff5b327c68f016399e0b45877ddf405adaf57">
+<index version="1" commit="229ff5b327c68f016399e0b45877ddf405adaf57" name="Sonorityscape Scripts">
   <category name="Items">
     <reapack name="Sonorityscape_Items_MoveItemUnderMouseCursorDownOneTrack.lua" type="script">
       <metadata>
