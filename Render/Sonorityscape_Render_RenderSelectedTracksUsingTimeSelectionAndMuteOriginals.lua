@@ -254,6 +254,6 @@ reaper.PreventUIRefresh(1)
 Main()
 reaper.UpdateArrange()
 reaper.PreventUIRefresh(-1)
-reaper.Undo_EndBlock("Render Selected Tracks and Reposition", -1)
+reaper.Undo_EndBlock("Render Selected Tracks Using Time Selection And Mute Originals", -1)
 
 

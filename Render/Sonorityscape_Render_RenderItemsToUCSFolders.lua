@@ -843,7 +843,7 @@ reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
 Main()
 reaper.PreventUIRefresh(-1)
-reaper.Undo_EndBlock("Render Selected Tracks and Reposition", -1)
+reaper.Undo_EndBlock("Render Items To UCS Folders", -1)
 
 
 
