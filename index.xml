@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="ddfb9f6e2c4b19d3d9159801f56f818b53e0c379">
+<index version="1" name="Sonorityscape Scripts" commit="128f90a6bbfc7e24b3d1909f9eb7d76a91c60ea1">
   <category name="Items">
+    <reapack name="Sonorityscape_Items_MoveItemUnderMouseCursorDownOneTrack.lua" type="script">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T21:33:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/128f90a6bbfc7e24b3d1909f9eb7d76a91c60ea1/Items/Sonorityscape_Items_MoveItemUnderMouseCursorDownOneTrack.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Sonorityscape_Items_MoveItemUnderMouseCursorDownTwoTracks.lua" type="script">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T21:33:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/128f90a6bbfc7e24b3d1909f9eb7d76a91c60ea1/Items/Sonorityscape_Items_MoveItemUnderMouseCursorDownTwoTracks.lua</source>
+      </version>
+    </reapack>
     <reapack name="Sonorityscape_Items_RepositionSelectedItemsPrioritizingEarlierItems.lua" type="script" desc="Repositions the distance between each selected item by a specified amount. The item positioning is">
       <metadata>
         <link rel="website">http://sonorityscape.com/</link>
@@ -61,6 +77,16 @@
       </version>
     </reapack>
   </category>
+  <category name="Regions">
+    <reapack name="Sonorityscape_Regions_NameAllProjectRegionsSequentially.lua" type="script">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T21:33:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/128f90a6bbfc7e24b3d1909f9eb7d76a91c60ea1/Regions/Sonorityscape_Regions_NameAllProjectRegionsSequentially.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Render">
     <reapack name="Sonorityscape_Render_RenderItemsToUCSFolders.lua" type="script" desc="Renders selected items with UCS compliant names to UCS folders">
       <metadata>
@@ -108,6 +134,14 @@
     </reapack>
   </category>
   <category name="TracksAndItems">
+    <reapack name="Sonorityscape_TracksAndItems_AddAB-LMToSelectedTracksAndItems.lua" type="script" desc="Adds AB_LM to selected tracks and items ignoring specified default track plugins">
+      <metadata>
+        <link rel="website">http://sonorityscape.com/</link>
+      </metadata>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T21:33:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/128f90a6bbfc7e24b3d1909f9eb7d76a91c60ea1/TracksAndItems/Sonorityscape_TracksAndItems_AddAB-LMToSelectedTracksAndItems.lua</source>
+      </version>
+    </reapack>
     <reapack name="Sonorityscape_TracksAndItems_OpenFXPanelForSelectedTracksAndItems.lua" type="script" desc="Opens FX panel for selected tracks and items">
       <metadata>
         <link rel="website">http://sonorityscape.com/</link>
