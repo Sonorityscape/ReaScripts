@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Sonorityscape Scripts" commit="229ff5b327c68f016399e0b45877ddf405adaf57">
+<index version="1" name="Sonorityscape Scripts" commit="6632ea329ab4bd8b6182ceeaab991553f5d26e73">
   <category name="Items">
     <reapack name="Sonorityscape_Items_MoveItemUnderMouseCursorDownOneTrack.lua" type="script">
       <metadata>
@@ -128,16 +128,16 @@
       <metadata>
         <link rel="website">http://sonorityscape.com/</link>
       </metadata>
-      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
-        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Tracks/Sonorityscape_Tracks_AddParentFolderTrackWithFXToSelectedTracks.lua</source>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T22:21:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/6632ea329ab4bd8b6182ceeaab991553f5d26e73/Tracks/Sonorityscape_Tracks_AddParentFolderTrackWithFXToSelectedTracks.lua</source>
       </version>
     </reapack>
     <reapack name="Sonorityscape_Tracks_ToggleShowOnlySoloedTracks.lua" type="script" desc="A toggle that when on only shows soloed tracks and when off shows all tracks">
       <metadata>
         <link rel="website">http://sonorityscape.com/</link>
       </metadata>
-      <version name="1.0" author="Daniel Petras" time="2021-03-05T17:49:34Z">
-        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/26611b9bf53c26317b926ebb15a50ad034d223c7/Tracks/Sonorityscape_Tracks_ToggleShowOnlySoloedTracks.lua</source>
+      <version name="1.0" author="Daniel Petras" time="2021-03-12T22:21:03Z">
+        <source main="main">https://github.com/Sonorityscape/ReaScripts/raw/6632ea329ab4bd8b6182ceeaab991553f5d26e73/Tracks/Sonorityscape_Tracks_ToggleShowOnlySoloedTracks.lua</source>
       </version>
     </reapack>
   </category>
