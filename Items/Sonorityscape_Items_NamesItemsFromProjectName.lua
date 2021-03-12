@@ -1,3 +1,13 @@
+--[[
+@version 1.0
+Script Name: Names Items From Project Name
+Author: Daniel Petras
+Contact: daniel@sonorityscape.com
+Website: http://sonorityscape.com/
+Repository: https://github.com/Sonorityscape/ReaScripts/raw/master/index.xml
+Version Last Tested: REAPER v6.23
+Description: Names and increments items from project names
+--]]
 
 function Get_Item_Increment(increment)
 
@@ -83,5 +93,10 @@ function Main()
 end
 
 
+reaper.Undo_BeginBlock()
+reaper.PreventUIRefresh(1)
 Main()
+reaper.UpdateArrange()
+reaper.PreventUIRefresh(-1)
+reaper.Undo_EndBlock("Names Items From Project Name", -1)
 
